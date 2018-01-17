@@ -1,0 +1,57 @@
+﻿<html>
+
+<head>
+  <title>通达OA自动打卡</title>
+  <link href="style.css" rel="stylesheet" type="text/css"></link>
+  <style>
+      body {
+          overflow: hidden;
+          margin-top: 0px;
+      }
+
+      #main {
+          width: 200px;
+          font-family: arial, helvetica, sans-serif;
+          font-size: 13;
+      }
+  </style>
+  <script src="common.js"></script>
+  <script src="popup.js"></script>
+</head>
+
+<body>
+
+  <div id="main">
+
+    <center>
+      <h1>承道打卡</h1>
+      <div id="current_time">00:00:00</div>
+    </center>
+
+    <div id="a1_wrap" class="alarm_wrap input-group">
+      <input id="a1_on" type="checkbox">
+      <label for="a1_on">上班打卡</label>
+
+      <input id="a1_tt" type="time" step="300" size="5">
+    </div>
+    <div id="a2_wrap" class="alarm_wrap input-group">
+      <input id="a2_on" type="checkbox">
+      <label for="a2_on">下班打卡</label>
+      
+      <input id="a2_tt" type="time" step="300" size="5">
+    </div>
+  </div>
+
+  </div>
+
+</body>
+<footer>
+  <h2>立即手动打卡</h2>
+  <button>上班打卡</button>
+  <button>下班打卡</button>
+  <a href="options.html">options
+
+  </a>
+</footer>
+
+</html>
